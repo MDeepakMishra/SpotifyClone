@@ -1,7 +1,7 @@
 @import url('https"//fonts.googleapis.com/css2?family=Ubuntu&dislay=swap');
 @import url('https"//fonts.googleapis.com/css2?family=Varela+Round&dislay=swap');
 body{
-    background-color: antiquewhite;
+    background-color: lightgoldenrodyellow;
 
 }
 
@@ -115,3 +115,22 @@ nav ul li{
     opacity: 0;
     transition: opacity is 0.4s ease-in;
 }
+.songItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px; /* Adds spacing inside the song items */
+    margin-bottom: 10px; /* Adds space between the song items */
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Optional: Adds a light background */
+}
+
+.songName {
+    margin-left: 10px; /* Adds space between the image and text */
+    flex-grow: 1; /* Ensures song name expands while keeping spacing */
+}
+
+.songlistplay {
+    margin-left: auto; /* Pushes the play button to the right */
+}
+
