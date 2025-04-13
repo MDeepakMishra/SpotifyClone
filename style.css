@@ -119,18 +119,18 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px; /* Adds spacing inside the song items */
-    margin-bottom: 10px; /* Adds space between the song items */
+    padding: 10px 15px; 
+    margin-bottom: 10px; 
     border-radius: 5px;
-    background-color: #f8f8f8; /* Optional: Adds a light background */
+    background-color: #f8f8f8;  */
 }
 
 .songName {
-    margin-left: 10px; /* Adds space between the image and text */
-    flex-grow: 1; /* Ensures song name expands while keeping spacing */
+    margin-left: 10px; 
+    flex-grow: 1; 
 }
 
 .songlistplay {
-    margin-left: auto; /* Pushes the play button to the right */
-}
+    margin-left: auto; 
 
+}

@@ -1,11 +1,6 @@
 console.log("WElCOME TO SPOTIFY ");
-
-//Initialize te Varibles 
 let songIndex = 0 ;
-let audioElement = new Audio('songs/1.mp3');
-
-//audioElement.play();
-
+let audioElement = new Audio('Mysongs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
